@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+         ns="http://iis.com/search"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+
+    <start>
+        <element name="item">
+            <element name="title"><text/></element>
+            <element name="snippet"><text/></element>
+            <element name="url"><text/></element>
+            <element name="domain"><text/></element>
+            <element name="position"><data type="integer"/></element>
+        </element>
+    </start>
+
+</grammar>

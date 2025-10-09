@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SearchResponse xmlns="http://iis.com/search">
+    <status>OK</status>
+    <request_id>ac5ea849-239b-4248-897c-01c48235961a</request_id>
+    <data>
+        <item>
+            <title>Booking.com | Official site | The best hotels, flights, car rentals ...</title>
+            <snippet>Explore the world with Booking.com. Big savings on homes, hotels, flights, car rentals, taxis, and attractions – build your perfect trip on any budget.</snippet>
+            <url>https://www.booking.com/</url>
+            <domain>www.booking.com</domain>
+            <position>1</position>
+        </item>
+        <item>
+            <title>Booking.com: Hotels &amp; Travel - Apps on Google Play</title>
+            <snippet>Save on your next trip with the Booking.com app! Find great hotel or apartment deals and book in just a few minutes. You can also book flights, rental cars, ...</snippet>
+            <url>https://play.google.com/store/apps/details?id=com.booking&amp;hl=en_US</url>
+            <domain>play.google.com</domain>
+            <position>2</position>
+        </item>
+        <item>
+            <title>Booking Holdings: World's Leading Provider of Online Travel</title>
+            <snippet>Booking Holdings is the world's leader in online travel. Brands include Booking.com, priceline.com, agoda.com, Kayak, Rentalcars.com &amp; OpenTable.</snippet>
+            <url>https://www.bookingholdings.com/</url>
+            <domain>www.bookingholdings.com</domain>
+            <position>3</position>
+        </item>
+        <item>
+            <title>Expedia Travel: Vacation Homes, Hotels, Car Rentals, Flights ...</title>
+            <snippet>Your one-stop travel site for your dream vacation. Bundle your stay with a car rental or flight and you can save more. Search our flexible options to match ...</snippet>
+            <url>https://www.expedia.com/</url>
+            <domain>www.expedia.com</domain>
+            <position>4</position>
+        </item>
+        <item>
+            <title>Booking.com</title>
+            <snippet>From Bulgarian beaches to wandering the Lakes district, these European getaways will thrill the whole family.</snippet>
+            <url>https://www.facebook.com/bookingcom/</url>
+            <domain>www.facebook.com</domain>
+            <position>5</position>
+        </item>
+        <item>
+            <title>Booking.com</title>
+            <snippet>A career at Booking.com is all about the journey, helping you explore new challenges in a place where you can be your best self.</snippet>
+            <url>https://www.linkedin.com/company/booking.com</url>
+            <domain>www.linkedin.com</domain>
+            <position>6</position>
+        </item>
+        <item>
+            <title>Booking.com: Hotels &amp; Travel 4+ - App Store</title>
+            <snippet>Save on your next trip with the Booking.com app! Find great hotel or apartment deals and book in just a few minutes. You can also book flights, rental cars, ...</snippet>
+            <url>https://apps.apple.com/us/app/booking-com-hotels-travel/id367003839</url>
+            <domain>apps.apple.com</domain>
+            <position>7</position>
+        </item>
+        <item>
+            <title>Agoda Official Site | Free Cancellation &amp; Booking Deals | Over ...</title>
+            <snippet>Book your perfect holiday with Agoda and enjoy our great discounts on hotels, homes, flights and activities. Get the Agoda app!</snippet>
+            <url>https://www.agoda.com/</url>
+            <domain>www.agoda.com</domain>
+            <position>8</position>
+        </item>
+        <item>
+            <title>Online Bookings and Appointment Scheduling | Microsoft 365</title>
+            <snippet>Bookings works seamlessly with your Microsoft 365 calendar to help your customers quickly find available times and avoid double-booking.</snippet>
+            <url>https://www.microsoft.com/en-us/microsoft-365/business/scheduling-and-booking-app</url>
+            <domain>www.microsoft.com</domain>
+            <position>9</position>
+        </item>
+        <item>
+            <title>Booking.com | American Express United States</title>
+            <snippet>Simply book your next stay through the American Express Benefit Platform with your eligible American Express® Card and enjoy up to 30% off qualifying hotel ...</snippet>
+            <url>https://experiences.global/travel/booking</url>
+            <domain>experiences.global</domain>
+            <position>10</position>
+        </item>
+        <item>
+            <title>test</title>
+            <snippet>test</snippet>
+            <url>test</url>
+            <domain>test</domain>
+            <position>11</position>
+        </item>
+    </data>
+</SearchResponse>

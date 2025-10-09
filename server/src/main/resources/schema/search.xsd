@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://iis.com/search"
+           xmlns:sr="http://iis.com/search"
+           elementFormDefault="qualified">
+
+
+    <xs:element name="SearchRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="keyword" type="xs:string"/>
+                <xs:element name="limit" type="xs:int" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="ResultType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="snippet" type="xs:string"/>
+            <xs:element name="url" type="xs:string"/>
+            <xs:element name="domain" type="xs:string"/>
+            <xs:element name="position" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:element name="SearchResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="result" type="sr:ResultType" minOccurs="0" maxOccurs="unbounded"/>
+
+                <xs:element name="validationMessage" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

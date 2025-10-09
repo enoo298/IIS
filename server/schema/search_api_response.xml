@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SearchResponse xmlns="http://iis.com/search">
+    <status>OK</status>
+    <request_id>4eec6a02-0539-432a-b548-2bf662177b0c</request_id>
+    <data>
+        <item>
+            <title>Website</title>
+            <snippet>A website is any web page whose content is identified by a common domain name and is published on at least one web server. Websites are typically dedicated ...</snippet>
+            <url>https://en.wikipedia.org/wiki/Website</url>
+            <domain>en.wikipedia.org</domain>
+            <position>1</position>
+        </item>
+        <item>
+            <title>Create Your Free Website | Free Website Builder | Website.com</title>
+            <snippet>Create a professional website for free with the Website.com website builder. Domain names, web hosting, website templates, and ecommerce solutions included.</snippet>
+            <url>https://www.website.com/</url>
+            <domain>www.website.com</domain>
+            <position>2</position>
+        </item>
+        <item>
+            <title>Wix.com: Website Builder - Create a Free Website In Minutes</title>
+            <snippet>Get everything you need to create your website, your way. With a free easy-to-use website builder, integrated hosting, and essential business solutions.</snippet>
+            <url>https://www.wix.com/</url>
+            <domain>www.wix.com</domain>
+            <position>3</position>
+        </item>
+        <item>
+            <title>Squarespace: Website Builder - Easily Create Your Own ...</title>
+            <snippet>Create a professional website with a free Squarespace trial. Our website builder makes it easy to start with customizable templates, AI tools, or a domain ...</snippet>
+            <url>https://www.squarespace.com/</url>
+            <domain>www.squarespace.com</domain>
+            <position>4</position>
+        </item>
+        <item>
+            <title>Google Drive: Sign-in</title>
+            <snippet>Access Google Drive with a Google account (for personal use) or Google Workspace account (for business use).</snippet>
+            <url>https://sites.google.com/</url>
+            <domain>sites.google.com</domain>
+            <position>5</position>
+        </item>
+        <item>
+            <title>GoDaddy: Domain Names, Websites, Hosting &amp; Online ...</title>
+            <snippet>Your all-in-one solution to grow online. Start a free trial to create a beautiful website, get a domain name, fast hosting, online marketing and ...</snippet>
+            <url>https://www.godaddy.com/</url>
+            <domain>www.godaddy.com</domain>
+            <position>6</position>
+        </item>
+        <item>
+            <title>Website Builder - Create a Free Website</title>
+            <snippet>Design and launch a professional, one-of-a-kind website in minutes with Canva's free website builder. Use free customizable templates, easy drag-and-drop tools ...</snippet>
+            <url>https://www.canva.com/website-builder/</url>
+            <domain>www.canva.com</domain>
+            <position>7</position>
+        </item>
+        <item>
+            <title>What is a website? Definition + examples</title>
+            <snippet>A website is a collection of webpages that are accessed with a single domain name or URL. It includes all the individual pages, multimedia ...</snippet>
+            <url>https://www.wix.com/blog/what-is-a-website</url>
+            <domain>www.wix.com</domain>
+            <position>8</position>
+        </item>
+        <item>
+            <title>Google Sites: Website Creator and Hosting</title>
+            <snippet>Easily create and edit your sites with drag-and-drop design. The automatic grid layout ensures everything looks great and scales perfectly on any device.</snippet>
+            <url>https://workspace.google.com/products/sites/</url>
+            <domain>workspace.google.com</domain>
+            <position>9</position>
+        </item>
+        <item>
+            <title>Free Website Builder: Build a Free Website or Online Store ...</title>
+            <snippet>Easily build a free website to help you get discovered and grow your customer base in style. Start today with our powerful free website builder.</snippet>
+            <url>https://www.weebly.com/</url>
+            <domain>www.weebly.com</domain>
+            <position>10</position>
+        </item>
+        <item>
+            <title>Hostinger - Bring Your Idea Online With a Website</title>
+            <snippet>Enjoy fast, secure and reliable web hosting here at Hostinger. Our expert team will handle everything while your site stays up and running throughout.</snippet>
+            <url>https://www.hostinger.com/</url>
+            <domain>www.hostinger.com</domain>
+            <position>11</position>
+        </item>
+        <item>
+            <title>Updated Title</title>
+            <snippet>Updated snippet text.</snippet>
+            <url>http://example.com/updated</url>
+            <domain>example.com</domain>
+            <position>12</position>
+        </item>
+        <item>
+            <title>Updated Title</title>
+            <snippet>Updated snippet text.</snippet>
+            <url>http://example.com/updated</url>
+            <domain>example.com</domain>
+            <position>13</position>
+        </item>
+    </data>
+</SearchResponse>

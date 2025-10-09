@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="hr.algebra.client.controller.MainController">
+    <top>
+        <ToolBar>
+            <Label text="IIS Client "/>
+
+            <Pane HBox.hgrow="ALWAYS"/>
+
+        </ToolBar>
+    </top>
+
+    <center>
+        <TabPane fx:id="tabPane">
+            <!-- soap -->
+            <Tab text="SOAP Search" closable="false">
+                <BorderPane>
+                    <top>
+                        <HBox spacing="10" style="-fx-padding: 10;">
+                            <Label text="Keyword:"/>
+                            <TextField fx:id="tfSoapKeyword"  HBox.hgrow="ALWAYS"/>
+                            <Label text="Limit:"/>
+                            <TextField fx:id="tfSoapLimit" promptText="10" prefWidth="70"/>
+                            <Button text="Search" onAction="#onSoapSearch"/>
+                        </HBox>
+                    </top>
+                    <center>
+                        <TextArea fx:id="taSoapOutput" editable="false" wrapText="true" style="-fx-font-family: Consolas; -fx-padding: 10;"/>
+                    </center>
+                </BorderPane>
+            </Tab>
+
+            <!--  crud  -->
+            <Tab text="Response (CRUD)" closable="false">
+                <BorderPane>
+                    <top>
+                        <HBox spacing="10" style="-fx-padding: 10;">
+
+<!--                            <Button text="Dodaj"   fx:id="btnCreate" onAction="#onAddItem"/>-->
+<!--                            <Button text="Ažuriraj" fx:id="btnUpdate" onAction="#onUpdateItem"/>-->
+
+                            <Button text="Učitaj" onAction="#onLoadItems"/>
+                            <Button text="Dodaj" onAction="#onAddItem"/>
+                            <Button text="Ažuriraj" onAction="#onUpdateItem"/>
+                            <Button text="Obriši" onAction="#onDeleteItem"/>
+                            <Pane HBox.hgrow="ALWAYS"/>
+
+                        </HBox>
+                    </top>
+                    <center>
+                        <SplitPane orientation="VERTICAL">
+                            <TableView fx:id="tvItems" prefHeight="350.0">
+                                <columns>
+                                    <TableColumn fx:id="colPos" text="Position" prefWidth="90"/>
+                                    <TableColumn fx:id="colTitle" text="Title" prefWidth="250"/>
+                                    <TableColumn fx:id="colSnippet" text="Snippet" prefWidth="300"/>
+                                    <TableColumn fx:id="colUrl" text="URL" prefWidth="260"/>
+                                    <TableColumn fx:id="colDomain" text="Domain" prefWidth="160"/>
+                                </columns>
+                            </TableView>
+
+                            <GridPane hgap="10" vgap="8" style="-fx-padding: 10;">
+                                <columnConstraints>
+                                    <ColumnConstraints percentWidth="12"/>
+                                    <ColumnConstraints percentWidth="88"/>
+                                </columnConstraints>
+
+                                <Label text="Position:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                                <TextField fx:id="tfPos"  GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                                <Label text="Title:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                                <TextField fx:id="tfTitle" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                                <Label text="Snippet:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                                <TextField fx:id="tfSnippet" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                                <Label text="URL:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                                <TextField fx:id="tfUrl" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+                                <Label text="Domain:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+                                <TextField fx:id="tfDomain" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+                            </GridPane>
+                        </SplitPane>
+                    </center>
+                </BorderPane>
+            </Tab>
+
+            <!-- vaalidacija -->
+            <Tab text="Validation (XSD/RNG/JAXB)" closable="false">
+                <BorderPane>
+                    <top>
+                        <HBox spacing="10" style="-fx-padding: 10;">
+                            <Button text="Validate XSD" onAction="#onValidateXsd"/>
+                            <Button text="Validate RNG" onAction="#onValidateRng"/>
+                            <Button text="JAXB Validate API XML" onAction="#onValidateJaxb"/>
+                        </HBox>
+                    </top>
+                    <center>
+                        <SplitPane>
+                            <TextArea fx:id="taXmlInput" wrapText="true" style="-fx-font-family: Consolas; -fx-padding: 10;"/>
+                            <TextArea fx:id="taValidationOut" wrapText="true" editable="false" style="-fx-font-family: Consolas; -fx-padding: 10;"/>
+                        </SplitPane>
+                    </center>
+                </BorderPane>
+            </Tab>
+
+            <!-- XML-RPC -->
+            <Tab text="XML-RPC" closable="false">
+                <BorderPane>
+                    <top>
+                        <HBox spacing="10" style="-fx-padding: 10;">
+                            <Label text="Grad :"/>
+                            <TextField fx:id="tfCity"/>
+                            <Button text="Dohvati temperature" onAction="#onGetTemps"/>
+                        </HBox>
+                    </top>
+                    <center>
+                        <TextArea fx:id="taRpcOut" wrapText="true" editable="false" style="-fx-font-family: Consolas; -fx-padding: 10;"/>
+                    </center>
+                </BorderPane>
+            </Tab>
+        </TabPane>
+    </center>
+
+    <bottom>
+        <Label fx:id="lblStatus" style="-fx-padding: 6 10;" text="Spremno."/>
+    </bottom>
+</BorderPane>

@@ -1,0 +1,31 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://iis.com/search"
+           xmlns="http://iis.com/search"
+           elementFormDefault="qualified">
+
+    <xs:element name="SearchResponse" type="SearchResponseType"/>
+
+    <xs:complexType name="SearchResponseType">
+        <xs:sequence>
+            <xs:element name="status" type="xs:string"/>
+            <xs:element name="request_id" type="xs:string"/>
+            <xs:element name="data" type="DataType" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="DataType">
+        <xs:sequence>
+            <xs:element name="item" type="ItemType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ItemType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="snippet" type="xs:string" minOccurs="0"/>
+            <xs:element name="url" type="xs:anyURI"/>
+            <xs:element name="domain" type="xs:string" minOccurs="0"/>
+            <xs:element name="position" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
